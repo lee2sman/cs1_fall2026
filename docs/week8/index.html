@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="date" content="" />
+            <title>Week 8 - Arrays of Objects and Debugging</title>
+      <link rel="stylesheet" href="../css/../css/cs1.css" />
+
+      <meta property="og:title" content="Week 8 - Arrays of Objects and
+Debugging" />
+                  <meta property="og:type" content="article" />
+  </head>
+  <body>
+      <header> <nav>
+  <ul>
+    <li><a href="/cs1_fall2026">home</a></li>
+    <li><a href="/cs1_fall2026/about">about</a></li>
+    <li><a href="/cs1_fall2026/syllabus">syllabus</a></li>
+  </ul>
+</nav> </footer>
+      <h1>Week 8 - Arrays of Objects and Debugging</h1>
+            <p><em>Date: 2026-10-12</em></p>
+            <h2 id="today">Today</h2>
+            <ul>
+            <li>check-in</li>
+            <li>midterm review</li>
+            <li>arrays of objects</li>
+            <li>finite state machine</li>
+            </ul>
+            <h3 id="midterm-exam">Midterm Exam</h3>
+            <h3 id="arrays-of-objects">Arrays of objects</h3>
+            <p>Several weeks ago we built Frogger in class. We created a
+            Car class and then built a number of car objects (car0,
+            car1, car2, etc). What do these objects have in common?</p>
+            <p>This is a perfect use case for an array. Especially if we
+            want to make a large number of cars.</p>
+            <p>Let’s re-use our car class:</p>
+            <pre><code>class Car {
+  float x;
+  float y;
+  float xspeed;
+  color c;
+  
+  Car(float tempX, float tempY, float tempXspeed, color tempC){
+    c = tempC;
+    x = tempX;
+    y = tempY;
+    xspeed = tempXspeed;
+  }
+  
+  void display(){
+    rectMode(CENTER);
+    stroke(0);
+    fill(c);
+    rect(x, y, 20, 10);
+  }
+  
+  void move(){
+    x = x + xspeed;
+    
+    if (x &gt; width){
+      x = 0;
+    }
+    if (x &lt; 0){
+      x = width;
+    }
+  }
+}</code></pre>
+            <p>Let’s say we have 2 cars.</p>
+            <p>Our main code:</p>
+            <pre><code>Car car0, car1;
+
+void setup(){
+  size(500,500);
+  car0 = new Car(100,150,1,color(100,0,100));
+  car1 = new Car(300,230,2,color(220,0,120));
+}
+
+void draw(){
+  background(255);
+  car0.display();
+  car0.move();
+  car1.display();
+  car1.move();
+}</code></pre>
+            <p>What happens if we have more than 2 cars. What if we have
+            10 cars? 30 cars?</p>
+            <p>It would be a lot easier if we didn’t have type in all of
+            the cars individually.</p>
+            <pre><code>Car[] cars = new Car[20]; //an array of 20 cars
+
+void setup(){
+  size(500,500);
+  
+  for (int i = 0; i &lt; cars.length; i++){
+    cars[i] = new Car(random(width),random(height),random(2),color(random(255)));
+  }
+}
+
+void draw(){
+ for (int i = 0; i &lt; cars.length; i++){
+    cars[i].display();
+    cars[i].move();
+    }
+}</code></pre>
+            <h3 id="debugging">Debugging</h3>
+            <p>Processing comes with a Debugger.</p>
+            <p>What’s a bug?</p>
+            <figure>
+            <img
+            src="../images/779c6cb1d7a09ab152f04a19f111e5a1b9fc1d9c.jpg"
+            alt="original Grace Hopper moth bug" />
+            <figcaption aria-hidden="true">original Grace Hopper moth
+            bug</figcaption>
+            </figure>
+            <blockquote>
+            <p>an error, flaw, failure or fault in a computer program or
+            system that causes it to produce an incorrect or unexpected
+            result, or to behave in unintended ways.
+            <em>Wikipedia</em></p>
+            </blockquote>
+            <p>Bugs cause disasters:</p>
+            <ul>
+            <li>The Challenger spaceship explosion</li>
+            <li>European Space Agency’s $1 billion Ariane 5 rocket was
+            destroyed a minute after launch due to a bug in the guidance
+            program</li>
+            <li>stuck accelerator in certain Toyota cars</li>
+            </ul>
+            <h3 id="using-processings-debugger">Using Processing’s
+            Debugger</h3>
+            <ol type="1">
+            <li>Turn on the debugger (Debug menu or click the Moth
+            icon)</li>
+            <li>Click on the line where you want to set a breakpoint (a
+            pause when running the code)</li>
+            <li>Choose <em>Set Breakpoint</em> from the Debug menu</li>
+            <li>Run your code. It will pause at the breakpoint and show
+            your variables.</li>
+            <li>You can hit step to move one line of code, or continue
+            to run until the next breakpoint</li>
+            <li>You can set multiple breakpoints. You can click on the
+            Processing folder to see builtin variables.</li>
+            </ol>
+            <h2 id="finite-state-machines">Finite State Machines</h2>
+            <p>A few weeks ago we looked at diagrams of finite state
+            machines.</p>
+            <figure>
+            <img src="../images/fsm_dog.png"
+            alt="dog finite state machine" />
+            <figcaption aria-hidden="true">dog finite state
+            machine</figcaption>
+            </figure>
+            <p>Today, we will code one.</p>
+            <p>At its core, the finite state machine are a series of
+            functions with different states. You can transition between
+            these states. And you can never be in more than one state at
+            a time.</p>
+            <pre><code>void draw(){
+  if (state == &quot;sleeping&quot;){
+    sleeping();
+  } else if (state == &quot;laughing&quot;){
+    laughing();
+  } else if (state == &quot;eating&quot;){
+    eating();
+  } else {
+    sitting();
+  }
+}</code></pre>
+            <h4 id="basic-finite-state-machine-example">Basic finite
+            state machine example</h4>
+            <pre><code>String state = &quot;sleeping&quot;;
+
+void setup(){
+  
+}
+
+void draw(){
+ if (state == &quot;sleeping&quot;){
+   sleeping(); 
+ } else if (state == &quot;eating&quot;) {
+   eating();
+ } else {
+   sitting(); 
+ }
+}
+
+void sleeping(){
+ println(&quot;It&#39;s sleeping&quot;); 
+ 
+ if (mousePressed){
+  state = &quot;sitting&quot;; 
+ }
+}
+
+void sitting(){
+ println(&quot;It&#39;s sitting&quot;); 
+ 
+ if (mousePressed){
+  state = &quot;eating&quot;; 
+ }
+}
+
+void eating(){
+ println(&quot;It&#39;s eating&quot;);
+ 
+ if (mousePressed){
+  state = &quot;sitting&quot;; 
+ }
+}</code></pre>
+            <h4 id="next-steps">Next steps:</h4>
+            <p>Now we add in:</p>
+            <ul>
+            <li>drawing</li>
+            <li>timers</li>
+            <li>interactivity</li>
+            </ul>
+            <h2 id="midterm-project-checkin">Midterm project
+            checkin</h2>
+            <ul>
+            <li>work on midterm project</li>
+            <li>Midterm project is due on April 1</li>
+            </ul>
+            <h3 id="for-next-week">For next week:</h3>
+            <p>Prototype of virtual pet due.</p>
+            <p>Your prototype must include: - 1. flowchart of finite
+            state machine and 2. your code - Code all states from your
+            submitted finite state machine flowchart. <strong>Your code
+            must reflect on the states and triggers from your finite
+            state machine flowchart</strong> - Implementation of all
+            triggers and states (triggers are the events that transition
+            between states) - compelling visuals of the pet to accompany
+            each of its states (consider how you can animate as well) -
+            completion of interactivity and timers between states</p>
+            <p>Grading Rubric for final of virtual pet project:</p>
+            <h4 id="code">Code</h4>
+            <ul>
+            <li>Your project’s code should be well-commented. Variables,
+            functions and class names should be clear. Classes should be
+            on their own separate tab.</li>
+            <li>Your coding should be efficient. Break your code into
+            meaningful chunks using functions and classes. Rather than
+            repeat code, use loops. Consider how arrays might help your
+            code.</li>
+            <li>Your code should work!</li>
+            <li>Don’t hard code numbers. Use variables, width, height -
+            for example - to make your code function on different
+            computers.</li>
+            </ul>
+            <h4 id="idea">Idea</h4>
+            <ul>
+            <li>Your software should be accompanied by a description
+            (more than a paragraph, less than a page. What is the idea?
+            How did you approach it? What challenges did you have? How
+            did you solve it? These are example questions. Feel free to
+            add additional information.</li>
+            <li>Did you base your functionality on other virtual pets,
+            animals, Aibo, something else?</li>
+            <li>What feedback did you receive on your prototype? What
+            changes did you make based on that feedback?</li>
+            <li>Your originality will be judged. Do not copy projects
+            already found online.</li>
+            </ul>
+            <h4 id="functionality-and-design">Functionality and
+            Design</h4>
+            <ul>
+            <li>Is it clear how to use and navigate your virtual pet?
+            Remember K.I.S.S. principles (<em>“Keep It Simple,
+            Stupid!”</em>)</li>
+            <li>How do you interact with it?</li>
+            <li>Does the program flow (of your finite state machine)
+            make logical sense?</li>
+            <li>Do the aesthetics suit the concept? Is it engaging more
+            than a minute? Is the interaction compelling for users?</li>
+            <li>How does the virtual pet show that it’s passing
+            time?</li>
+            <li><strong>A complete virtual pet must include both timers
+            as well as interactivity (mouse or keys).</strong></li>
+            </ul>
+      <footer> <hr>
+
+<p><em><a href="/cs1_fall2026">This site</a> is built using <a href="https://tildegit.org/exquisitecorp/panblog">panblog</a>. Site design by Lee Tusman (c) 2026.</em></p>
+
+<p><em>All course content, unless otherwise credited, is by Lee Tusman (c) 2026 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA</a>.</em></p> </footer>
+  </body>
+</html>

@@ -1,0 +1,368 @@
+<rss version="2.0">
+<channel>
+<title>Computer Science 1, Fall 2026</title>
+<link>https://leetusman.com/cs1_fall2026</link>
+<description>Computer Science 1, Fall 2026 at Purchase College.</description>
+<item>
+<title>
+Week 1 - Introduction
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-08-24-intro.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-08-24-intro.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Introduction
+
+-   Who am I?
+-   How did you end up here?
+    -   why did you sign up for this class?
+-   What is computer science?
+-   Our course goals
+-   What are you worried about in this course?
+-   What are you excited for or optimistic about?
+-   What questions do you have? (for this course, for me…)?
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 2 - Variables and Conditionals
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-08-31-week2.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-08-31-week2.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Note: We will take breaks at least once an hour
+
+Today’s Schedule
+
+-   Ungraded quiz
+-   warmup: flag
+-   createShape()
+-   Variables
+-   Random
+-   Review HW
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 4 - Loops and Loops and Loops and Loops
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-09-14-week4.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-09-14-week4.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today’s Schedule
+
+-   Review of variables and conditionals
+-   Boolean Variables
+-   Variables Scope
+-   Loops
+-   Build Pong
+-   Play Pong
+-   Review HW
+-   Check-ins and Coding
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 5 - Functions
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-09-21-week5.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-09-21-week5.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today
+
+-   Pong Redux
+-   What is a function?
+-   System-defined functions
+-   User-defined functions
+-   Arguments and Parameters
+-   Return
+-   hw: make an office hour appointment
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 6 - Timers and Arrays
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-09-28-week6.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-09-28-week6.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today’s Schedule
+
+-   Check-in/Review
+    -   functions
+-   Midterm info
+-   Review simple AI homework
+-   Timers with millis()
+-   Arrays
+
+Midterm Exam
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 7 - Classes and Objects
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-10-05-week7.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-10-05-week7.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   midterm review
+-   classes and objects
+-   Constructor
+-   member variables (attributes)
+-   methods
+-   Dot operator, this, new
+-   build Frogger
+-   finite state machine
+]]>
+</description>
+</item>
+<item>
+<title>
+Midterm Practice Questions
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-10-06-midterm-practice.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-10-06-midterm-practice.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Short Questions
+
+What are the purpose of code comments?
+
+What are variable types?
+
+What is an algorithm?
+
+What is an iteration?
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 8 - Arrays of Objects and Debugging
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-10-12-week8.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-10-12-week8.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today
+
+-   check-in
+-   midterm review
+-   arrays of objects
+-   finite state machine
+
+Midterm Exam
+
+Arrays of objects
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 9 - Media Files such as Images and Video
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-10-19-week9.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-10-19-week9.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today’s Schedule
+
+-   midterm
+-   media
+-   class coding time and 1-on-1 check-ins
+
+Midterm Exam
+
+Working with Media
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 10 - History of Computing and the Layers of Abstraction
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-10-26-week10.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-10-26-week10.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   review midterm exam
+-   review midterm projects
+-   history of computation
+-   “abstraction” in computing
+-   binary
+
+via GIPHY
+History of computation
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 11 - Libraries, Camera, Pixels
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-11-02-week11.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-11-02-week11.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   libraries
+-   working with the camera
+-   working with video
+-   workshop: creating a camera application/frame
+
+Libraries
+
+What is a Library?
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 12 - Sound, Text and Typography
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-11-09-week12.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-11-09-week12.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+Today:
+
+-   camera software
+-   Sound library
+-   Strings and Fonts
+-   Intro final project
+
+Review camera software
+
+Sound
+]]>
+</description>
+</item>
+<item>
+<title>
+Week 13 - 3d
+</title>
+<link>
+https://leetusman.com/cs1_fall2026/posts/2026-11-16-week13.html
+</link>
+<guid>
+https://leetusman.com/cs1_fall2026/posts/2026-11-16-week13.html
+</guid>
+<pubDate>
+Sun, 23 Aug 2026 00:00:00 -0400
+</pubDate>
+<description>
+<![CDATA[
+-   3d
+-   time to work on final project
+
+Processing in 3D
+
+There are more rendering modes in Processing. The default renderer is
+P2D. There is also P3D, PDF and SVG. To use a non-default mode you
+specify it in the size() function.
+
+example
+]]>
+</description>
+</item>
+</channel>
+  </rss>
