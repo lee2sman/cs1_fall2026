@@ -14,7 +14,7 @@ Fall 2026
 Instructor: Lee Tusman  
 Pronounts: he/him  
 Contact: Lee.Tusman@purchase.edu  
-Office Hours: Thursdays 10:30pm - 12:30pm by appointment  
+Office Hours: Thursdays 10:30 - 12:30 by appointment  
 
 ### Course Description
 
@@ -36,106 +36,117 @@ _ _ _
 _ _ _
 _ _ _
 
+
 ### Required Materials
+
 - Learning Processing, 2nd Edition - by Daniel Shiffman
  - Available for purchase in the campus bookstore, online in many places, and as a ebook, Kindle, etc. The newer edition is a bit better and more up to date but an older edition is ok. We also have two copies on reserve at the library. Please be in touch if you are having trouble acquiring the book in the first week of class.
 - [Processing](https://processing.org/download/), a free Integrated Development Environment for programming. Available for free download or donation.
 - A laptop OR classroom computer (with personal USB drive) to hold your assignments
   - You are responsible for backing up your files!
 
-# University and Classroom Policies and Rules
+## University and Classroom Policies and Rules
 
-## Official Purchase College Academic Integrity Policy
+### Academic Integrity Policy
+
+The Purchase College academic integrity policy explicitly forbids cheating, plagiarism, and other forms of academic dishonesty. Plagiarism is the appropriation or imitation of the language, ideas, and/or thoughts of another person and the representation of them as one’s own original work. Students are responsible for familiarizing themselves with the definition of plagiarism and the acceptable methods of attribution. Violation of any of the above may lead to formal disciplinary action and the following sanctions:
+
+* Minimum Sanction: Failing grade on the assignment or examination. Maximum Sanction: Expulsion
+* Recommended Sanction (First Offense): Failing grade for the course
+* Recommended Sanction (Second Offense): Expulsion
+
+Students who have any questions or doubts about whether any activity is academically permissible should check with the instructor.
+
+### ChatGPT and Large Language Models (LLM) Policy
+
+The use of ChatGPT and other similar Large Language Models can be useful for writing code, but my own take is that the more you rely on it, the harder it is for a learner to learn how to code, how to think through blocks, and come up with innovative solutions. This is in addition to other issues relating to commercial LLMs like abuse of copyright, environmental impact, surveillance, false information, so-called 'hallucinations' and generic creative output. While I've seen it help some programmers in some circumstances I also see student learners usually get results they don't understand how to use, and they copy/paste and turn in half-working code, that they don't understand, that is overbuilt for industry solutions when they were so close to figuring out a simpler solution themselves that would have helped them with a more complete understanding, and the satisfaction of solving on their own.
+
+Here's our rules:
+
+* **Do not turn in code written by Large Language Models (ChatGPT, Claude, etc).**
+* You can use LLM for research such as to **explore topics, not to write your code for you**. These are questions such as "When should I use a local versus a global variable?" (though this could be found easily through a web search, with less environmental impact).
+
+### Accessibility Statement
+
+The Office of Disability Resources collaborates directly with students who identify documented disabilities to create accommodation plans, including testing accommodations, in order for students to access course content and validly demonstrate learning. For those students who may require accommodations, please contact the Office of Disability Resources as soon as possible, 914-251-6035, ODR@purchase.edu (Student Services Building, #316A), https://www.purchase.edu/odr.
+
+### Mental Health and Well-being
+
+University faculty and staff recognize that mental health and stress can impact college performance and interfere with daily life activities. At Purchase, Counseling & Behavioral Health Services can provide support if you’re struggling with feeling overwhelmed, anxious, depressed, lost, stuck or in a crisis. Please call (914)251-6390 or visit the [Counseling Center website](https://www.purchase.edu/counseling-center/)  for more information. CBHS services are free and confidential. 
+
+We support all students experiencing emergencies. Services include therapy, support groups, stress reduction at the Harbor Center, and other activities.  The Counseling Center in Humanities Lower Level is open M-F, from 9:00a.m.– 5:00p.m. for appointments and walk-up scheduling, or call (914) 251-6390.  The Harbor Center Sanctuary in Fort Awesome is available for stress reduction, mindfulness and meditation training, free drop-in classes and support groups, and relaxation.
+
+### Student Contact
+
+All students are expected to conduct themselves in accordance with Purchase College’s Student Code of Conduct.  Any repetitive or disruptive behavior, including but not limited to outbursts, intoxication/drug use, personal or physical threats, damage to property, etc., may result in the professor requesting the student to leave class, contacting University Police, and/or notifying the Office of Community Standards.
+
+### Learning Center (Tutoring Support)
+
+All students at Purchase College can take advantage of our tutoring services in the Learning Center and the Einstein Corner. These are free, 45-minute, peer-to-peer tutoring sessions in a variety of subjects and in writing across the disciplines. Sessions can happen in person or through the Online Writing Lab up to 3x/week. The OWL allows students to submit a paper draft and get written feedback by email within 48 business hours. We strongly recommend face-to-face meetings for first-year students and multilingual writers. I encourage you to take advantage of this service to help you excel in this class, as well as your other courses. Please visit the Learning Center and Einstein Corner websites for more information.
+
+### Classroom expectations
+
+* Please be on time, listen actively, and participate in class discussion and activities. 
+* Please put cell phones in 'sleep' mode at the start of class. If you need such devices for personal obligations, please take a break and leave the classroom.
+* Laptops may be used in class for note taking and coding only. During class, don't check social media, do homework for other classes, buy things, etc. Stay engaged in the class!
+
+## Course Requirements
+
+* Attendance and punctuality are expected for every class.  
+* Attendance will be taken at every class.  
+* Your presence is vital for participation in varied learning activities and small-group work.  
+* You are allowed 1 unexcused absences.  
+* Additional unexcused absences may affect your grade.  
+* Late arrivals or early departures may be counted as absences.  
+* **If you are sick, don't come to class. Get in touch with the professor.**
+* If you miss class, it is your responsibility to find out from classmates what you missed and submit assignments on time.
+
+Learning programming is a cumulative effort. Each class builds on what you have learned in previous classes. Missing class can substantially set you back in this process. Therefore, it is important that you attend every class. 
+
+Coding can be difficult, and struggling with the material is part of the learning process. Students are allowed to collaborate to learn from each other. Do not collaborate in order to simply find out a solution to a project. Each participant should contribute approximately equally, and what you turn in should be your own. Copying a solution from another student, even if you change a few minor things such as variable names, is not a collaboration. You may help someone learn something, but you can not tell them what to code. If you have questions about collaboration or academic integrity, get in touch with me via email, talk with me before or after class, or come to office hours.
+
+## University and Classroom Policies and Rules
+
+### Official Purchase College Academic Integrity Policy
 
 > The Purchase College academic integrity policy, [purchase.edu/live/blurbs/840-academic-and-professional-integrity](https://www.purchase.edu/live/blurbs/840-academic-and-professional-integrity), explicitly forbids cheating, plagiarism, and other forms of academic dishonesty. Plagiarism is the appropriation or imitation of the language, ideas, and/or thoughts of another person and the representation of them as one’s own original work. Students are responsible for familiarizing themselves with the definition of plagiarism and the acceptable methods of attribution.
 
 > Violation of any of the above may lead to formal disciplinary action and the following sanctions:
-- Minimum Sanction: Failing grade on the assignment or
+* Minimum Sanction: Failing grade on the assignment or
 examination. Maximum Sanction: Expulsion
-- Recommended Sanction (First Offense): Failing grade for the
+* Recommended Sanction (First Offense): Failing grade for the
 course
-- Recommended Sanction (Second Offense): Expulsion
+* Recommended Sanction (Second Offense): Expulsion
 
 > Students who have any questions or doubts about whether any activity is academically permissible should check with the
 instructor.
 
 Plagiarism and cheating are taken seriously. You will be held accountable for Purchase's [Student Code of Conduct for Academic Integrity](https://www.purchase.edu/offices/community-standards/student-code-of-conduct/section-a-academic-integrity/index.php).
 
-### Class policy on Collaboration
+### Tentative Nature of syllabus
 
-I support collaborative learning with some important caveats.
+If needed, this syllabus and the course outline may be revised to better suit the class. Students are responbile for keeping up with any changes distributed via email or in class. The most up to date syllabus will always be up to date on the class site.
 
-Coding can be difficult, and struggling with the material is part of the learning process. Students are allowed to collaborate to learn from each other. Do not collaborate in order to simply find out a solution to a project. Each participant should contribute approximately equally, and what you turn in should be your own. Copying a solution from another student, even if you change a few minor things such as variable names, is not a collaboration. You may help someone learn something, but you can not tell them what to code. If you have questions about collaboration or academic integrity, get in touch with me via email, talk with me before or after class, or come to office hours.
+### Expectations of Professor
 
+I will be accessible to you in class, office hours, and online. I will respond promptly within 24 hours during the schoolweek to any questions and can clarify anything from our class.
 
-## Tutoring Support
+I will use your preferred name and pronouns and treat you with respect.
 
-All students at Purchase College can take advantage of our tutoring services in the Learning Center and the Einstein Corner. This semester these will be held online via Zoom. These are free, 45-minute, peer-to-peer tutoring sessions in a variety of subjects and in writing across the disciplines. I encourage you to take advantage of this service to help you excel in this class, as well as your other courses. Please visit the [Learning Center](https://www.purchase.edu/offices/learning-center/index.php) and [Einstein Corner](https://www.purchase.edu/academics/school-of-natural-social-sciences/academic-support/index.php) websites for more information. Einstein Corner has tutors for CS1 classes.
+If you come to me with a request or feedback I will listen and give my full consideration.
 
+If you have a concern or an emergency I will help you to services and support.
 
-## Homework
+I will give prompt and clear feedback to you on your progress in class at set points in the semester and any time you make a request via email.
 
-You will have in-class and outside of class coursework and homework in the form of code sketches and projects. All work is to be submitted on time before our class. For the most part, I am checking that you did your work, that you wrestled with challenges, and tried to work through them. That is more important to me than that you got the exact right answer. **It is always better to turn in SOMETHING even if you can't totally get your code to work, than to not turn in anything at all**. That way, I can see that you were working.
+### Tips
 
-## Accessiblity Statement
-
-It is my goal that this class be an accessible and welcoming experience for all students, including those with disabilities. You are welcome to talk to me at any point in the semester about course design concerns, but it is always best if we can talk as soon as possible about the need for any modifications. The Office of Disability Resources collaborates directly with students who identify documented disabilities to create accommodation plans, including testing accommodations, in order for students to access course content and validly demonstrate learning. For those students who may require accommodations, please call or email the Office of Disability Resources, (914) 251-6035, odr@purchase.edu.
-
-## Tentative Nature of syllabus
-
-If needed, this syllabus and the course outline may be revised to better suit the class. Students are responbile for keeping up with any changes distributed via email or in class. The most up to date syllabus will always be linked from Moodle.
-
-## Classroom Community
- 
-##  COMMUNITY HEALTH DURING COVID-19: 
- To ensure that each of us has a healthy and safe learning experience, all students are required to remain informed and follow Purchase College Policy and/or any departmental, local, state, or federal laws, rules, or regulations for attending classes on campus and in a remote learning environment.
-
-Within courses that involve in-person contact, all students, faculty members, staff, and visitors are required to adhere to the expectations outlined on the College’s COVID-19 website. Failure to comply with requirements (e.g. wearing masks, maintaining social distancing where applicable) will result in the request to leave the classroom for that in-person class session. Students may also be referred to the Office of Community Standards.
-
-Do not enter campus buildings if you test positive for or are experiencing any symptoms of COVID-19. Contact your faculty and Health Services if you need to miss class because of COVID-19 symptoms or a positive COVID-19 test result. The conservatory/school will address on a case by case basis student absences due to COVID-19, while awaiting test results, or during quarantine. 
-
-## Attendance
-
-Please don't miss class. We only have one of these a week!
-
-Learning programming is a cumulative effort. More than most other courses each of our classes will build on what you have learned in previous classes. Missing class sets you back in this process. It is important that you attend every class.
-
-Here's my policy: Three absences will lower your grade by one letter. (i.e. an A will became a B). With each additional unexcused absences, the grade will drop an additional unit for each absence. I will take attendance at the beginning of class, often with a brief check-in quiz. If you miss the quiz or are more than 15 minutes late, that is the equivalence of an absence. If there is an emergency or otherwise extenuating circumstance that prevents you from attending class, please email me.
-
-We will be covering critical concepts and working on code and projects in-class and you are responsible for reviewing our class site and reaching out to your peers outside of class time to catch up on what you have missed.
-
-## Programming Language choice
-
-There are countless forums and debates dedicated to what programming language you should learn first. The language you choose doesn't matter as much as you may think. Instead, it's important to learn basic concepts of coding. We will be primarily focused on the Processing language, built on top of the Java language. Java is widely used and can run on almost any computer. Processing provides a friendly coding development environment, has lots of resources for beginners, is capable of intensive computing tasks, provides a simple graphic library, and will teach you fundamental skills which can be applied to other languages. We may touch on other languages in this course including an overview of Java at the end of the semester. Students will have knowledge to be able to go on and work with almost any other language at the conclusion of our course.
-
-## Philosophy
-
-We are all learners and educators. Your experience and participation is valid and necessary. I am not the sole source of information. You are responsible for and encouraged to be in charge of your own education. Leap forth into areas of interest. Teach with and learn from others.
-
-Please hold me accountable and point out areas that need to be improved.
-
-- Help each other out. Ask lots of questions of me and your fellow students.
-- Learning to program is failure followed by success.
-- If you are feeling left behind, stuck, or frustrated in any way, please let me know immediately. I am here to help.
-- Sleep enough hours. Good sleep will get you through college, reduce stress, help you do well in class, and feel better. And it's free.
-
-### Statement of Values and Code of Conduct
-
---*with acknowldegement and thanks, adapted from Everest Pipkin*
-
-It is my intent to lead a course that serves students from diverse backgrounds and perspectives, and that our varied life experiences may enter the classroom as a resource, strength and benefit. I will address you by your name and pronouns and make arrangements to address disabilities or religious needs. 
-
-Free exchange of ideas and critique is encouraged and expected but I will not tolerate harassment, including threats of violence, deliberate intimidation, unwelcome sexual attention, and offensive comments related to gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, or background. During class discussion and critique we aim to speak and to listen, be mindful and generous in our interactions, and make everyone feel heard. 
-
-### Requesting Help on homework/code/projects
-
-- When you get stuck on a problem with your code and can't figure it out, take a good break such as taking a walk before coming back to try again. Try to explain your code's logic to a friend or family member, even someone who doesn't code.
-- You may wish to visit Einstein's Corner.
-- When you are sending me code, please send a [minimal version](https://stackoverflow.com/help/mcve), what you expected, and what you are getting. Please don't message me last minute. It can take me up to 24 hours to respond to emails, and longer on weekends or at the end of semesters. It is generally better for us to review your code together at office hours.
+- Work with your classmates inside and outside of class
+- Do Pair Programming
+- Start your homework early, do it in a quiet place, and minimize distractions. Expect 8 hours of work outside class per week.
+- Stay on top of your work. It will be hard to recover if you fall behind.
 
 ### Grades
-
-**Note: I have introduced self-grading to most of my courses. When you turn in an assignment, I will ask you to evaluate your own work and to assign a grade. This is optional: if you don't turn it in, I will assign a grade 'traditionally.' I will do 1-on-1 check-ins with you mid-semester and at the end of the semester to review your progress and grade.**
 
 * 25% - Homework assignments 
 * 25% - Midterm Exam and Project
@@ -157,109 +168,62 @@ Free exchange of ideas and critique is encouraged and expected but I will not to
 - [Processing Foundation official forum](https://discourse.processing.org/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/processing)
 
-### Recommended Podcasts
-- [Artists and Hackers](https://artistsandhackers.org)
-- [Code Newbie](https://www.codenewbie.org/podcast)
-- [Base.CS](https://www.codenewbie.org/basecs)
+## Schedule
 
-# Schedule
+### Week 1 - Introduction
+* intro
+* basic face assignment 
 
-## Week 1 | Intro
+### Week 2 - Variables and Conditionals
+* custom shapes, variables, conditionals
+* randomized face assignment
 
-- Introductions
-- Course Overview
-- Human Fax Machine
-- What is Processing?
-- Processing IDE
-- Cartesian Coordinate System
-- setup() and draw()
-- Basic Shapes
-- Colors
-- mouseX, mouseY
-- Console
-- Code Comments
-- Reference
+### Week 3 - Labor Day - no class
 
-## Week 2 | Variables and Conditionals
+### Week 4 - Loops and Loops and Loops and Loops
+* booleans, loops, pong, constrain, map
+* pong part 1 assignment
 
-- User-defined Variables
-- Declaring and Initializing variables
-- Data Types
-- Debugging variables with print statements
-- Boolean Variables
-- random( )
-- Conditional Statements
-- Else and Else if, AND and OR
+### Week 5 - Functions
+* custom functions, arguments, return
+* simple AI assignment
 
-## Week 3 | Loops
+### Week 6 - Timers and Arrays
+* millis(), arrays intro, finite state machine
+* midterm project assigned (tamagotchi)
 
-- while / for Loops
-- Nested Loops
-- Avoid infinite loops
+### Week 7 - Classes and Objects
+* classes and objects intro, constructor, dot operations, simple game state
+* Frogger game assignment
 
-## Week 4 | Functions
+### Week 8 - Arrays of Objects and Debugging
+* midterm review, array of objects
 
-- What is a function?
-- System-defined functions
-- User-defined functions
-- Arguments and Parameters
-- Return
+### Week 9 - MIDTERM / Media Files such as Images and Video
+* midterm exam in-class
+* media
+* midterm project
 
-## Week 5 | Arrays
+### Week 10 - History of Computing and the Layers of Abstraction
+* history of computation
+* layers of abstraction
+* binary
+* bit flip assignment
 
-- Arrays
-- Using arrays with loops
-- random(), map(), dist() with loops and arrays MAYBE: fonts
+### Week 11 - Libraries, Camera, Pixels
+* libraries, camera, pixel array, video
+* camera assignment
 
-*Midterm Project Assigned*
+### Week 12 - Sound, Text and Typography
+* sound library
+* final project proposal assigned
 
-## Week 6 | Classes & Objects
+### Week 13 - 3d
+* 3d viewport, rendering, lighting
+* final project proposals due
 
-- Classes and Objects
-- Constructor, member variables (attributes), methods
-- Dot operator, this, new
-- Creating a class (for a walker for example) vs. as a collection of independent data
+### Week 14 - final project work
+* check-ins
 
-## Week 7 | Classes & Objects 
-
-- More practice with classes and object
-- Using objects in arrays
-- History of Computation
-- Binary
-
-## Week 8 | Midterm Exam and Midterm Project Presentations
-
-## Week 9 | Libraries
-
-- Working with libraries
-- Sound
-- Video
-
-## Week 10 | Images and Pixels
-
-- Images
-- Camera Capture
-- Pixel Arrays
-
-## Week 11 | Transformations
-
-- Translate, Rotate, Scale
-- Inheritance
-- push/pop matrix
-
-## Week 12 | Working with Text and Data
-
-- Fonts
-- Text
-- Working with Data
-
-## Week 13 | Advanced Object Oriented Programming
-
-- Inheritance
-- Processing -> Java
-
-## Week 14 | In-class Work and Feedback
-
-## Week 15 | Final Project Presentations
-
-## Final Exam 
+### Week 15 - final project presentations
+* final project due
