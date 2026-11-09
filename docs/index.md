@@ -31,7 +31,7 @@
 [Week 11 - Libraries, Camera, Pixels](week11/)  
 2026-11-02  
 
-[Week 11 - Sound, and Working with Transformations](week12/)  
+[Week 12 - Sound, and Working with Transformations](week12/)  
 2026-11-09  
 
 [Week 12 - Sound, Text and Typography](week13/)  
