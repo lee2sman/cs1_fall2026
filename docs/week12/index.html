@@ -26,6 +26,7 @@ with Transformations" />
             <ul>
             <li>Sound library</li>
             <li>Translate / rotate / pushMatrix</li>
+            <li>Fonts</li>
             </ul>
             <h2 id="sound">Sound</h2>
             <p>To play audio, we can use the Processing Sound
@@ -166,6 +167,46 @@ size(400, 400);
 rect(120, 80, 200, 200);
 scale(0.5);
 rect(120, 80, 200, 200);</code></pre>
+            <h2 id="fonts">Fonts</h2>
+            <p>PFont is the font class for Processing. Processing
+            displays fonts using the .vlw font format. The
+            <code>loadFont()</code> function constructs a new font and
+            <code>textFont()</code> makes a font active.</p>
+            <p><code>loadFont()</code> Loads a .vlw formatted font into
+            a PFont object. Create a .vlw font by selecting “Create
+            Font…” from the Tools menu. This tool creates a texture for
+            each alphanumeric character and then adds them as a .vlw
+            file to the current sketch’s data folder. Because the
+            letters are defined as textures (and not vector data) the
+            size at which the fonts are created must be considered in
+            relation to the size at which they are drawn. For example,
+            load a 32pt font if the sketch displays the font at 32
+            pixels or smaller. Conversely, if a 12pt font is loaded and
+            displayed at 48pts, the letters will be distorted because
+            the program will be stretching a small graphic to a large
+            size.</p>
+            <p>To load correctly, fonts must be located in the
+            <strong>data</strong> folder of the current sketch.
+            Alternatively, the file maybe be loaded from anywhere on the
+            local computer using an absolute path (something that starts
+            with / on Unix and Linux, or a drive letter on Windows), or
+            the filename parameter can be a URL for a file found on a
+            network.</p>
+            <p><em>info adapted from Processing.org CC BY NC SA</em></p>
+            <pre class="processing"><code>size(400, 400);
+
+//create a PFont named font
+PFont font;
+
+// The font must be located in the sketch&#39;s 
+// &quot;data&quot; directory to load successfully
+font = loadFont(&quot;NotoSans-Bold-48.vlw&quot;);
+
+//change to our loaded font, with huge size 128
+textFont(font, 128);
+
+//display text with our font
+text(&quot;word&quot;, 50, 200);</code></pre>
             <h1 id="homework">Homework</h1>
             <p>Read Chapter 17, text</p>
             <p>Read Chapter 20, sound</p>
