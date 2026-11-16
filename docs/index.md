@@ -34,9 +34,9 @@
 [Week 12 - Sound, and Working with Transformations](week12/)  
 2026-11-09  
 
-[Week 12 - Sound, Text and Typography](week13/)  
+[Week 13 - Text and Typography](week13/)  
 2026-11-16  
 
-[Week 13 - 3d](week14/)  
+[Week 14 - 3d](week14/)  
 2026-11-23  
 
